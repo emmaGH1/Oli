@@ -19,7 +19,7 @@ export default function RootLayout({ children } : Props)  {
     return (
         <ClerkProvider>
            <html lang="en">
-             <body className={` ${inter.className}`} >
+             <body className={` ${inter.className} bg-dark-1`} >
                 {children}
              </body>
            </html>
